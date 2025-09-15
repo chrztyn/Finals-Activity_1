@@ -1,0 +1,100 @@
+.form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e5f2ff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: #37474f;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+  padding: 0.6rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #cfd8dc;
+  padding: 0.7rem;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #37474f;
+  color: #ffffff;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f1f3f4;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #37474f;
+  color: #ffffff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background-color: #263238;
+}
+
+
+.list-section {
+  margin-top: 2rem;
+}
+
+.list-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.list-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-section li {
+  background: #eceff1;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
